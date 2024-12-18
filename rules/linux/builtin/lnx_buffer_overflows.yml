@@ -15,10 +15,10 @@ logsource:
 detection:
     keywords:
         '|re':
-          - 'attempt to execute code on stack by'
-          - 'FTP LOGIN FROM .* 0bin0sh'
-          - 'rpc.statd[\d+]: gethostbyname error for'
-          - 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'
+            - 'attempt to execute code on stack by'
+            - 'FTP LOGIN FROM .* 0bin0sh'
+            - 'rpc.statd[\d+]: gethostbyname error for'
+            - 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'
     condition: keywords
 falsepositives:
     - Unknown
